@@ -18,7 +18,10 @@ gem 'puma', '~> 3.11'
 
 gem 'active_model_serializers', '~> 0.10.12'
 gem 'jwt'
-gem 'rspec-rails'
+gem 'rspec-rails', "~> 3.5"
+gem 'rspec-json_expectations'
+gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
+gem 'jwt'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
